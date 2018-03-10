@@ -2,13 +2,14 @@
 This is a Repository that includes all the information we have found regarding blockchain development. If you have any sources of information that will benefit people, please update and I will commit the information, Also feel free to add this to blogs, social media, communities, etc. Thanks for the help!
 
 ## Table of Contents
-1. [General](#general)
+1. [Required Reading](#required-reading)
 1. [Consensus](#consensus)
 1. [Cryptography](#cryptography)
 1. [Block generation parameters](#block-generation-parameters)
-1. [Stake](#stake)
+1. [Proof of Stake](#proof-of-stake)
 1. [Attacks](#attacks)
 1. [Wallets](#wallets)
+1. [Health Care](#health-care)
 1. [Crime](#crime)
 1. [Economics](#economics)
 1. [Marketplaces and Trust](#marketplaces-and-trust)
@@ -18,17 +19,17 @@ This is a Repository that includes all the information we have found regarding b
 1. [Network](#network)
 1. [Smart Contracts](#smart-contracts)
 1. [Formal Methods](#formal-methods)
-1. [Proof of work](#proof-of-work)
+1. [Proof of Work](#proof-of-work)
 1. [Survey, Sociological & Anthropological](#survey-sociological--anthropological)
 1. [Applications](#applications)
-1. [License](#license)
 
 ---
 
-## General
+## Required Reading
 
 - **[Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.com/bitcoin.pdf)**. Nakamoto S. '08.
 - **[SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies](http://www.jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf)**. Bonneau J, Miller A, Clark J, Narayanan A, Kroll JA, Felten EW. S&P '15.
+-[Blockchain basics: Introduction to business ledgers](https://scooblr.com/assets/uploads/2016/08/cl-blockchain-basics-intro-bluemix-trs-pdf.pdf) By IBM '16
 
 ## Consensus
 
@@ -38,6 +39,10 @@ This is a Repository that includes all the information we have found regarding b
 - [On Trees, Chains and Fast Transactions in the Blockchain](https://eprint.iacr.org/2016/545.pdf). Kiayias A, Panagiotakos G. '16.
 - "RSCoin": [Centrally banked cryptocurrencies](https://arxiv.org/pdf/1505.06895.pdf). Danezis G, Meiklejohn S. '15.
 - [Anonymous Byzantine Consensus from Moderately-Hard Puzzles: A Model for Bitcoin](https://socrates1024.s3.amazonaws.com/consensus.pdf). Miller A, LaViola JJ Jr. '14.
+- [Proof of Luck consensus whitepaper](https://dl.acm.org/ft_gateway.cfm?id=3007790&ftid=1821347&dwn=1&CFID=14066816&CFTOKEN=e189296a09b9bfec-8EE4B7F4-ECCC-2C9A-C07853F50B8DB474)
+- [Understanding Blockchain Consensus Models](https://pdfs.semanticscholar.org/da8a/37b10bc1521a4d3de925d7ebc44bb606d740.pdf). By Dr. Arati Baliga '17
+- [Ripple Protocol Consensus Algorithm Review](http://docshare04.docshare.tips/files/27118/271185330.pdf) By Peter Todd '15
+
 
 ## Cryptography
 
@@ -53,12 +58,13 @@ This is a Repository that includes all the information we have found regarding b
 - [Inclusive Block Chain Protocols](http://fc15.ifca.ai/preproceedings/paper_101.pdf). Lewenberg Y, Sompolinsky Y, Zohar A. FC '15.
 - [On the Security and Performance of Proof of Work Blockchains](https://eprint.iacr.org/2016/555.pdf). Gervais A, Karame GO, Wüst K, Glykantzis V, Ritzdorf H, Capkun S. CCS '16.
 
-## Stake
+## Proof of Stake
 - [Ouroboros: A provably secure proof-of-stake blockchain protocol](https://pdfs.semanticscholar.org/1c14/549f7ba7d6a000d79a7d12255eb11113e6fa.pdf). Kiayias A, Russell A, David B, Oliynykov R. '16.
 - [ALGORAND: The Efficient and Democratic Ledger](https://arxiv.org/pdf/1607.01341.pdf). Micali S. '16.
 - "ByzCoin": [Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_kokoris-kogias.pdf). Kogias EK, Jovanovic P, Gailly N, Khoffi I, Gasser L, Ford B. USENIX '16.
 - [Cryptocurrencies without Proof of Work](http://fc16.ifca.ai/bitcoin/papers/BGM16.pdf). Bentov I, Gabizon A, Mizrahi A. FC '16.
 - [Ouroboros Praos: An adaptively-secure, semi-synchronous proof-of-stake protocol](http://eprint.iacr.org/2017/573.pdf). Bernardo D, Gazi P, Kiayias A, Russell A. Crypto '17.
+-[Proof of Stake Blockchain: Performance and Scalability for Groupware Communications] (https://www.researchgate.net/profile/Peter_Eklund/publication/320020915_Proof_of_Stake_Blockchain_Performance_and_Scalability_for_Groupware_Communications/links/59c905ed0f7e9bd2c01a465e/Proof-of-Stake-Blockchain-Performance-and-Scalability-for-Groupware-Communications.pdf)
 
 ## Attacks
 
@@ -72,6 +78,12 @@ This is a Repository that includes all the information we have found regarding b
 - [Bitcoin Covenants](http://fc16.ifca.ai/bitcoin/papers/MES16.pdf). Möser M, Eyal I, Sirer EG. FC '16.
 - [Enhancing Bitcoin Transactions with Covenants](http://fc17.ifca.ai/bitcoin/papers/bitcoin17-final28.pdf). O’Connor R, Piekarska M. FC '17.
 - [Hierarchical deterministic Bitcoin wallets that tolerate key leakage](http://fc15.ifca.ai/preproceedings/paper_15.pdf). Gutoski G, Stebila D. FC '15.
+
+## Health Care
+
+- [A Case Study for Blockchain in Healthcare](https://pdfs.semanticscholar.org/56e6/5b469cad2f3ebd560b3a10e7346780f4ab0a.pdf) By Ariel Ekblaw*, Asaph Azaria*, John D. Halamka, MD†, Andrew Lippman* *MIT Media Lab, †Beth Israel Deaconess Medical Center
+'16
+
 
 ## Crime
 
@@ -177,7 +189,7 @@ This is a Repository that includes all the information we have found regarding b
 
 - [Automated Verification of Electrum Wallet](http://fc16.ifca.ai/bitcoin/papers/TVR16.pdf). Turuani M, Voegtlin T, Rusinowitch M. FC '16.
 
-## Proof of work
+## Proof of Work
 
 - "Proof-of-work": [Pricing via processing or combatting junk mail](https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf). Dwork C, Naor M. '92.
 - [Hashcash - A Denial of Service Counter-Measure](http://www.hashcash.org/papers/hashcash.pdf). Back A. '02.
