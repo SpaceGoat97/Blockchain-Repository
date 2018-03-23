@@ -3,6 +3,7 @@ This is a Repository that includes all the information we have found regarding b
 
 ## Table of Contents
 1. [Required Reading](#required-reading)
+1. [Videos](#videos)
 1. [Consensus](#consensus)
 1. [Cryptography](#cryptography)
 1. [Block generation parameters](#block-generation-parameters)
@@ -21,6 +22,7 @@ This is a Repository that includes all the information we have found regarding b
 1. [Formal Methods](#formal-methods)
 1. [Proof of Work](#proof-of-work)
 1. [Survey, Sociological & Anthropological](#survey-sociological--anthropological)
+1. [Specifications](#specifications)
 1. [Applications](#applications)
 
 ---
@@ -30,6 +32,11 @@ This is a Repository that includes all the information we have found regarding b
 - **[Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.com/bitcoin.pdf)**. Nakamoto S. '08.
 - **[SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies](http://www.jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf)**. Bonneau J, Miller A, Clark J, Narayanan A, Kroll JA, Felten EW. S&P '15.
 -[Blockchain basics: Introduction to business ledgers](https://scooblr.com/assets/uploads/2016/08/cl-blockchain-basics-intro-bluemix-trs-pdf.pdf) By IBM '16
+
+## Videos
+- [Programming Bitcoin Youtube Channel](https://www.youtube.com/programmingbitcoin)
+- [How Bitcoin Works Under the Hood](https://www.youtube.com/watch?v=Lx9zgZCMqXE)
+- [Coding Multi-Signature Addresses](https://www.youtube.com/watch?v=zIbUSaZBJgU)
 
 ## Consensus
 
@@ -205,6 +212,21 @@ This is a Repository that includes all the information we have found regarding b
 - [Cryptographic Currencies from a Tech-Policy Perspective: Policy Issues and Technical Direction](http://fc15.ifca.ai/preproceedings/bitcoin/paper_16.pdf). McReynolds E, Lerner A, Scott W, Roesner F, Kohno T. FC '15.
 - [The Other Side of the Coin: User Experiences with Bitcoin Security and Privacy](http://fc16.ifca.ai/preproceedings/33_Krombholz.pdf). Krombholz K, Judmayer A, Gusenbauer M, Weippl E. FC '16.
 - [An analysis of Bitcoin OP_RETURN metadata](http://fc17.ifca.ai/bitcoin/papers/bitcoin17-final32.pdf). Bartoletti M, Pompianu L. FC '17.
+
+## Specifications
+
+- [BIP70: Payments Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki)
+- [Working with the Payments Protocol](https://code.google.com/p/bitcoinj/wiki/PaymentProtocol)
+- [BIP32: Hierarchical Deterministic (HD) Wallets](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
+- [BIP32 Implementation: Money Tree HD Wallet](https://github.com/BitVault/money-tree)
+- [Deterministic Wallet](https://en.bitcoin.it/wiki/Deterministic_wallet)
+- [Technical background of version 1 Bitcoin addresses](https://en.bitcoin.it/wiki/Technical_background_of_Bitcoin_addresses)
+- [Transactions Reference](https://en.bitcoin.it/wiki/Transactions)
+- [Script Reference](https://en.bitcoin.it/wiki/Script)
+- [Raw Transactions API](https://en.bitcoin.it/wiki/Raw_Transactions)
+- [Colored Coins Protocol Specification](https://github.com/Flavien/colored-coins-protocol/blob/master/specification.mediawiki)
+-[The Mastercoin Protocol Specification](https://github.com/mastercoin-MSC/spec)
+- [Counterparty: Financial Instruments (Announcement)](https://bitcointalk.org/index.php?topic=395761.0)
 
 ## Applications
 
