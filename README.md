@@ -55,6 +55,8 @@ This is a Repository that includes all the information we have found regarding b
 
 - [On Bitcoin as a public randomness source](https://pdfs.semanticscholar.org/ebae/9c7d91ea8b6a987642040a2142cc5ea67f7d.pdf). Bonneau J, Clark J, Goldfeder S. '15.
 - [Distributed Cryptography Based on the Proofs of Work](https://eprint.iacr.org/2014/796). Andrychowicz M, and Dziembowski S. '14.
+- [Elliptic Curves](https://www.youtube.com/watch?v=6eZQu120A80&t=292s). by Professor Toby Gee
+- [Blockchain Visual Demo](https://anders.com/blockchain/hash.html) by Anders Brownworth 
 
 ## Block generation parameters
 
